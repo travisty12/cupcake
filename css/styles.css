@@ -15,6 +15,10 @@ body {
 
 }
 
+a:visited, a:link {
+  color: black;
+}
+
 #banner {
   height: 240px;
   background-image: url("../img/banner.png");
@@ -40,79 +44,57 @@ img {
   border-radius: 20px;
 }
 
+
 .wordblock {
-  margin-top: 10px;
-  padding: 20px;
+  margin-top: 25px;
+  padding: 1px 20px 20px 20px;
+  margin-left: 10%;
+  margin-right: 10%;
   background: #96CEB4;
   border-radius: 20px;
+  line-height: 25px;
 }
 
+.menu-block {
+  margin-top: 25px;
+  padding: 1px 20px 20px 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: #96CEB4;
+  border-radius: 20px;
+  line-height: 25px;
+}
+
+#menu {
+  
+}
 
 .sidebar {
   margin-top: 10px;
   width: 100%;
   height: 50px;
-  background-color: #96CEB4;
+  background-color: #FF6F69;
   border-radius: 20px;
 }
 
 .nav-link {
   background-color: none;
-  height: 28px;
+  height: 35px;
   width: 80px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 10px;
-  margin-top: 4px;
+  padding-top: 15px;
   margin-left: 10px;
   margin-right: 10px;
   display: inline-block;
-  border: 2px solid #FFCC5C;
 }
-
-a .nav-link {
-
+.nav-link:hover {
+  background-color: #FFCC5C;
 }
-
-
 
 .inline {
   max-height: auto;
-  width: 25%;
+  width: 22%;
   padding: 5px;
   display: inline-block;
-}
-
-
-@media screen and (min-width: 600px) {
-  #inline {
-    max-height: 600px;
-  }
-  #inline2 {
-    height: 600px;
-    width: auto;
-  }
-  #inline3 {
-    height: 600px;
-    width: auto;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #inline {
-    max-height: 600px;
-    max-width: 80%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  #inline2 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  #inline3 {
-    display: none;
-  }
 }
