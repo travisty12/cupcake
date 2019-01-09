@@ -44,6 +44,11 @@ img {
   border-radius: 20px;
 }
 
+img.pic {
+  max-width: 25%;
+  margin-top: 30px;
+}
+
 
 .wordblock {
   margin-top: 25px;
@@ -58,15 +63,28 @@ img {
 .menu-block {
   margin-top: 25px;
   padding: 1px 20px 20px 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
   background: #96CEB4;
   border-radius: 20px;
   line-height: 25px;
 }
 
-#menu {
-  
+.menu-item {
+  border-radius: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.menu-item:hover {
+  transition: 0.4s;
+  background-color: #FFCC5C;
+}
+
+
+.menu-item img{
+  max-width: 30%;
+  float: right;
 }
 
 .sidebar {
@@ -89,6 +107,7 @@ img {
   display: inline-block;
 }
 .nav-link:hover {
+  transition: 0.4s;
   background-color: #FFCC5C;
 }
 
